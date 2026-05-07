@@ -1,8 +1,9 @@
-name: hii
-on: push
+---
+name: hello
+on: workflow_path
 jobs:
   hello:
-   runs-on: ubuntu-latest
-   steps:
-     - name: salahuddin
-       run: echo "git hub actions"
+    runs-on: ubuntu-latest
+    steps:
+      - name: salahuddin
+        run: echo "git hub actions"
