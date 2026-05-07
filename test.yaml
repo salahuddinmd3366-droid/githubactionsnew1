@@ -1,5 +1,5 @@
 name: hello
-on: workflow_path
+on :push
 jobs:
   hello:
    runs-on: ubuntu-latest
