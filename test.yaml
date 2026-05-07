@@ -1,8 +1,12 @@
-name: hello
-on :push
+name: blank
+
+on:
+  
+  workflow_dispatch:
+
 jobs:
   hello:
-   runs-on: ubuntu-latest
-   steps:
-     - name: salahuddin
-       run: echo "git hub actions"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Message
+        run: echo "Hello GitHub Actions"
